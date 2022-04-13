@@ -1,9 +1,14 @@
-import Navbar from "../comps/Navbar";
+import Head from 'next/head'
 
-export default function background() {
+export default function renters() {
   return (
-    <>
+    <div>
+      <Head>
+        <title>Cryptastate | Renters</title>
+        <meta name="renters" content="" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1>Renters</h1>
-    </>
+    </div>
   )
 }

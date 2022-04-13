@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className={styles.text}>
           CryptoRenter
         </h1>
-        <h2 className={styles.text}>All payments, deposits, refunds, repairs, and issues handled by Polymath smart contracts</h2>
+        <h2 className={styles.text}>All payments, deposits, refunds, repairs, and issues handled by <a href="https://polymesh.network/">Polymath</a> smart contracts</h2>
 
       </main>
     </div>
