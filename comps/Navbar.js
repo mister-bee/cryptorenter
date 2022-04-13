@@ -4,7 +4,14 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <Image src="/cryptoImage.svg" width={128} height={77} ></Image>
+        <Link href="/clients"><a>
+          <Image
+            src="/cryptoImage.svg"
+            width={128}
+            height={77}
+            alt="" ></Image>
+        </a>
+        </Link>
       </div>
 
       <Link href="/"><a> Home </a></Link>
