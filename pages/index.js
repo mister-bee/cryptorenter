@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -13,8 +14,13 @@ export default function Home() {
 
 
       <main className={styles.main}>
+        <Image
+          src="/panda.svg"
+          width={180}
+          height={120}
+          alt="" ></Image>
         <h1 className={styles.text}>
-          CryptoRenter
+          CryptoPanda
         </h1>
         <h2 className={styles.text}>All payments, deposits, refunds, repairs, and issues handled by <a href="https://polymesh.network/">Polymath</a> smart contracts</h2>
       </main>

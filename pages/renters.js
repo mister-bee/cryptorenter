@@ -4,7 +4,7 @@ export default function renters() {
   return (
     <div>
       <Head>
-        <title>Cryptastate | Renters</title>
+        <title>CryptoPanda | Renters</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
